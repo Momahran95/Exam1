@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Great Vibes", cursive;
+  color: white;
+}
+#img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.758);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#lists {
+  display: flex;
+  li {
+    padding: 25px;
+    list-style-type: none;
+
+    a:hover {
+      color: rgba(165, 159, 42, 0.83);
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      transition: all 0.5s linear;
+    }
+  }
+}
+.card p {
+  font-family: "Teko", sans-serif;
+  font-size: 50px;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.195);
+  a:hover {
+    color: rgba(165, 159, 42, 0.83);
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s linear;
+  }
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.card img {
+  width: 600px;
+  height: 600px;
+  border-radius: 300px;
+}
+.footer {
+  background-color: rgba(0, 0, 0, 0.758);
+}
+.footerbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+.footerlist {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  list-style-type: none;
+  a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s linear;
+  }
+  a:hover {
+    color: rgba(165, 159, 42, 0.83);
+  }
+}
+
+.copyright p {
+  color: white;
+  text-align: center;
+}
